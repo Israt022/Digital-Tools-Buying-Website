@@ -41,7 +41,11 @@ const Banner = () => {
                             space-y-4
                         '>
                             <span>Supercharge Your</span> 
-                            <span> Digital Workflow</span> 
+                            <span className='bg-gradient-to-r
+                            from-[#4f39f6]
+                            to-[#9514fa]
+                            bg-clip-text
+                            text-transparent pb-2'> Digital Workflow</span> 
                         </h1>
                         <p className='text-[#627382]'>
                             Access premium AI tools, design assets, templates, and productivity
@@ -61,12 +65,18 @@ const Banner = () => {
                             Explore Products
                         </button>
                         <button className="btn btn-outline 
-                            btn-primary rounded-full
+                            rounded-full
+                            border border-[#4f39f6]
                             bg-gradient-to-r
-                            from-[rgba(79,57,246,1)]
-                            to-[rgba(149,20,250,1)]
+                            from-[#4f39f6]
+                            to-[#9514fa]
                             bg-clip-text
                             text-transparent
+                            hover:bg-gradient-to-r
+                            hover:from-[#4f39f6]
+                            hover:to-[#9514fa]
+                            hover:text-white
+                            hover:bg-clip-border
                         ">
                             <img src={play} alt="" />
                             Watch Demo

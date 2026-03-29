@@ -3,6 +3,7 @@ import './App.css'
 import { FaShoppingCart } from 'react-icons/fa';
 import Navbar from './components/HomePage/Navbar';
 import Banner from './components/HomePage/Banner';
+import State from './components/HomePage/State';
 
 function App() {
 
@@ -12,6 +13,8 @@ function App() {
       <Navbar/>
     </div>
     <Banner/>
+    <State/>
+
     {/* Toastify */}
     <ToastContainer />
     </>
