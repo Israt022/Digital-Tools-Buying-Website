@@ -99,7 +99,7 @@ const PricingCard = () => {
                             </div>
                             <p>
                                 <span className='text-2xl font-bold'>
-                                    {item.price}
+                                    ${item.price}
                                 </span>
                                 <span className={`capitalize
                                         ${item.status === 'Most Popular' ?

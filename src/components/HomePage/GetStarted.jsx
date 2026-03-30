@@ -56,9 +56,17 @@ const GetStarted = () => {
                                 absolute 
                                 top-5 right-5
                             '>0{item.id}</p>
-                            <img src={item.image}
-                             alt="" />
-                            <h1>
+                            <div className='px-5 py-5
+                                    bg-gradient-to-r 
+                                    from-[#4F39F6]/30  
+                                    to-[#9514FA]/30 rounded-full flex justify-center
+                                    items-center'> 
+                                <img src={item.image}
+                                alt="" className='
+                                    object-contain
+                                '/>
+                            </div>
+                            <h1 className='text-2xl font-bold'>
                                 {item.title}
                             </h1>
                             <p className='w-80 mx-auto 
