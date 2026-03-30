@@ -1,0 +1,98 @@
+[
+  {
+    "id": 1,
+    "name": "AI Writing Pro",
+    "description": "Generate blog posts, ads, and marketing copy using powerful AI writing tools.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "AI blog generator",
+      "Ad copy creator",
+      "SEO optimized content",
+      "Multiple writing tones"
+    ],
+    "icon": "FaPenNib"
+  },
+  {
+    "id": 2,
+    "name": "Design Templates Pack",
+    "description": "Professional templates for websites, presentations, and marketing materials.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "500+ design templates",
+      "Editable in Figma",
+      "High resolution export",
+      "Commercial license"
+    ],
+    "icon": "FaPalette"
+  },
+  {
+    "id": 3,
+    "name": "Premium Stock Assets",
+    "description": "Access thousands of high-quality stock photos, videos, and illustrations.",
+    "price": 39,
+    "period": "yearly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "10,000+ stock photos",
+      "HD video clips",
+      "Vector illustrations",
+      "Commercial usage rights"
+    ],
+    "icon": "FaIcons"
+  },
+  {
+    "id": 4,
+    "name": "Automation Toolkit",
+    "description": "Automate repetitive tasks and improve productivity with smart tools.",
+    "price": 15,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "popular",
+    "features": [
+      "Workflow automation",
+      "Task scheduling",
+      "Smart integrations",
+      "Analytics dashboard"
+    ],
+    "icon": "FaRobot"
+  },
+  {
+    "id": 5,
+    "name": "Resume Builder Pro",
+    "description": "Create professional resumes with modern templates and AI suggestions.",
+    "price": 25,
+    "period": "one-time",
+    "tag": "best seller",
+    "tagType": "best seller",
+    "features": [
+      "100+ resume templates",
+      "ATS optimization",
+      "Export to PDF",
+      "AI writing assistance"
+    ],
+    "icon": "FaFileAlt"
+  },
+  {
+    "id": 6,
+    "name": "Social Media Content Kit",
+    "description": "Ready-to-use content packs and templates for social media marketing.",
+    "price": 12,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "new",
+    "features": [
+      "Instagram templates",
+      "Facebook post designs",
+      "Story templates",
+      "Content calendar"
+    ],
+    "icon": "FaGlobe"
+  }
+]

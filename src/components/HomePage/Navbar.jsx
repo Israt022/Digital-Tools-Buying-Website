@@ -2,7 +2,7 @@ import React from 'react';
 import { CiShoppingCart } from 'react-icons/ci';
 import { RxDropdownMenu } from 'react-icons/rx';
 
-const Navbar = () => {
+const Navbar = ({cart}) => {
     return (
         <div className="navbar container mx-auto">
             <div className="navbar-start">
@@ -24,8 +24,8 @@ const Navbar = () => {
                     btn btn-ghost 
                     text-2xl font-bold
                     bg-gradient-to-r
-                    from-[rgba(79,57,246,1)]
-                    to-[rgba(149,20,250,1)]
+                    from-[#4F39F6]
+                    to-[#9514FA]
                     bg-clip-text
                     text-transparent
                 ">
@@ -41,9 +41,10 @@ const Navbar = () => {
                     <li><a>FAQ</a></li>
                 </ul>
             </div>
-            <div className="navbar-end gap-5">
-                <a href="">
-                    <CiShoppingCart size={28}/>
+            <div className="navbar-end gap-5 flex-wrap">
+                <a className='relative'>
+                    <span className='container block'><CiShoppingCart size={28}/></span>
+                    <span className='absolute -top-3 -right-4 text-white text-xs py-1 bg-red-500 px-2 rounded-full'>{cart.length}</span>
                 </a>
                 <a>Login</a>
                 <button className="
