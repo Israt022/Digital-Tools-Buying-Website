@@ -43,8 +43,15 @@ const Navbar = ({cart}) => {
             </div>
             <div className="navbar-end gap-5 flex-wrap">
                 <a className='relative'>
-                    <span className='container block'><CiShoppingCart size={28}/></span>
-                    <span className='absolute -top-3 -right-4 text-white text-xs py-1 bg-red-500 px-2 rounded-full'>{cart.length}</span>
+                    {
+                        cart.length > 0 ? 
+                        <>
+                            <span className='container block'><CiShoppingCart size={28}/></span>
+                            <span className='absolute -top-3 -right-4 text-white text-xs py-1 bg-red-500 px-2 rounded-full'>{cart.length}</span>
+                        </>: 
+                        <span className='container block'><CiShoppingCart size={28}/></span>
+                    }
+                    
                 </a>
                 <a>Login</a>
                 <button className="
