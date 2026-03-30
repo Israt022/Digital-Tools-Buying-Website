@@ -6,6 +6,8 @@ import Banner from './components/HomePage/Banner';
 import State from './components/HomePage/State';
 import { Suspense, useState } from 'react';
 import Products from './components/ProductData/Products';
+import GetStarted from './components/HomePage/GetStarted';
+import PricingCard from './components/HomePage/PricingCard';
 
 const fetchProductData = async () =>{
   const res = await fetch('/data.json');
@@ -27,6 +29,8 @@ function App() {
       <Products productDataPromise={productDataPromise} cart={cart} setCart={setCart}/>
     </Suspense>
 
+    <GetStarted/>
+    <PricingCard/>
     {/* Toastify */}
     <ToastContainer 
       position="top-center"
