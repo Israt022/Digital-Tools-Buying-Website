@@ -8,6 +8,7 @@ import { Suspense, useState } from 'react';
 import Products from './components/ProductData/Products';
 import GetStarted from './components/HomePage/GetStarted';
 import PricingCard from './components/HomePage/PricingCard';
+import Footer from './components/HomePage/Footer';
 
 const fetchProductData = async () =>{
   const res = await fetch('/data.json');
@@ -31,6 +32,7 @@ function App() {
 
     <GetStarted/>
     <PricingCard/>
+    <Footer/>
     {/* Toastify */}
     <ToastContainer 
       position="top-center"
